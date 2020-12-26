@@ -1,5 +1,4 @@
-Jekyll-DB
-=========
+# Jekyll-DB (from rypan/jekyll-db)
 
 An easy way to use Jekyll and Github Pages as a "database".
 
