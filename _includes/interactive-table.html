@@ -6,6 +6,8 @@
 
 <div class="row">
 <table class="table table-striped">
+
+	<!-- 테이블 헤더 -->
 	<thead>
 		<tr>
 			<th style="width:30%;"><span class="sort" data-sort="name">Company Name</span></th>
@@ -14,6 +16,8 @@
 			<th style="width:30%;"><span class="sort" data-sort="tags">Tags</span></th>
 		</tr>
 	</thead>
+
+	<!-- 테이블 바디 -->
 	<tbody class="list">
 	{% for post in site.posts %}
 		<tr>
@@ -24,6 +28,7 @@
 		</tr>
 	{% endfor %}
 	</tbody>
+
 </table>
 </div>
 
@@ -32,6 +37,7 @@
 
 <script type="text/javascript">
 
+// 옵션 
 var options = {
   valueNames: ['name', 'city', 'category', 'tags']
 };
